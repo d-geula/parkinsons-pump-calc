@@ -26,8 +26,8 @@ def main():
             )
             night_flow_rate = st.number_input(
                 "Night Flow Rate (ml/hour)",
-                min_value=0,
-                max_value=10,
+                min_value=0.0,
+                max_value=10.0,
                 value=0.27,
                 step=0.01,
             )
@@ -35,13 +35,13 @@ def main():
         with col2:
             base_flow_rate = st.number_input(
                 "Base Flow Rate (ml/hour)",
-                min_value=0,
-                max_value=10,
+                min_value=0.0,
+                max_value=10.0,
                 value=0.44,
                 step=0.01,
             )
             boost_flow_rate = st.number_input(
-                "Boost Flow Rate (ml)", min_value=0, max_value=10, value=0.3, step=0.1
+                "Boost Flow Rate (ml)", min_value=0.0, max_value=10.0, value=0.3, step=0.1
             )
 
     st.divider()
