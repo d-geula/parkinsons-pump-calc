@@ -22,7 +22,7 @@ def main():
 
         with col1:
             vial_amount = st.number_input(
-                "Vial Amount (ml)", min_value=0, max_value=100, value=10.0, step=0.1
+                "Vial Amount (ml)", min_value=0.0, max_value=100.0, value=10.0, step=0.1
             )
             night_flow_rate = st.number_input(
                 "Night Flow Rate (ml/hour)",
