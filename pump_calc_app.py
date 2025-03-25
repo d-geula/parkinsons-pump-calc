@@ -1,6 +1,6 @@
 import streamlit as st
 
-from .pump_calc import calculate_vial_duration
+from pump_calc import calculate_vial_duration
 
 
 def main():
